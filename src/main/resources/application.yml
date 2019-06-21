@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: websocket-demo
+  thymeleaf:
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+    mode: HTML # 用非严格的 HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+server:
+  port: 8083
+  servlet:
+    context-path: /checkcentersys
+
